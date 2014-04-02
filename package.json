@@ -1,0 +1,9 @@
+{
+  "name": "headingImageGenerator",
+  "version": "0.1.0b1",
+  "description": "",
+  "license": "MIT License",
+  "devDependencies": {
+    "fast-csv": "~0.2.2"
+  }
+}

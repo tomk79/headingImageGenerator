@@ -90,9 +90,9 @@
 	webpage.onLoadFinished = function() {
 		console.log('page Load Finished.');
 	};
-	var selfurl = 'http://localhost:'+options.port+'/template.html'
+	var templateUrl = 'http://localhost:'+options.port+'/template.html'
 
-	webpage.open(selfurl, function(status) {
+	webpage.open(templateUrl, function(status) {
 		if (status === 'success') {
 			window.setTimeout( function(){
 				if( webpage.render( './test.png' ) ){
@@ -104,7 +104,7 @@
 			}, 500 );
 			return;
 		}else{
-			console.log('Error: on page loading. ('+status+' : '+selfurl+')');
+			console.log('Error: on page loading. ('+status+' : '+templateUrl+')');
 			return phantom.exit();
 		}
 	});
