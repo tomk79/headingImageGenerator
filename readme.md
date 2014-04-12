@@ -60,6 +60,10 @@ $ node headingImageGenerator.js port=80 mode=preview unit=1 pathCsv=./data.csv p
 
 ## change log
 
+### headingImageGenerator.js 1.0.1 (2014/\*/\*)
+
+- ----------
+
 ### headingImageGenerator.js 1.0.0 (2014/4/13)
 
 - 初版リリース
