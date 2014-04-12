@@ -17,7 +17,7 @@
 		pathOutput: __dirname+'/output/',// PNG出力ディレクトリパス
 		port: 80, // nodeサーバーのポート番号
 		unit: 1, // nodeサーバーのポート番号
-		version: '0.0.1-nb' // headingImageGenerator.js のバージョン
+		version: '1.0.0' // headingImageGenerator.js のバージョン
 	};
 
 	console.log('version '+conf.version);

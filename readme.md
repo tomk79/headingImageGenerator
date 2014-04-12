@@ -52,9 +52,15 @@ $ node headingImageGenerator.js port=8080
 - pathCsv - CSVのパスを指定。省略時、カレントディレクトリの ./data.csv を読み込む。
 - pathOutput - 出力先ディレクトリを指定。省略時、カレントディレクトリに output ディレクトリを作成して書き出す。
 
+下記はオプションの指定例。
+
+```
+$ node headingImageGenerator.js port=80 mode=preview unit=1 pathCsv=./data.csv pathOutput=./output/
+```
+
 ## change log
 
-### headingImageGenerator.js 1.0.0 (2014/\*\*/\*\*)
+### headingImageGenerator.js 1.0.0 (2014/4/13)
 
 - 初版リリース
 
