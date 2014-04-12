@@ -4,6 +4,7 @@
   "description": "",
   "license": "MIT License",
   "devDependencies": {
-    "fast-csv": "~0.2.2"
+    "csv": "~0.3.6",
+    "node-phantom": "*"
   }
 }

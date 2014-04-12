@@ -1,7 +1,10 @@
 @charset "utf-8";
 *{
 	font-family:"メイリオ";
-	font-size:14px;
+	font-size:21px;
+}
+body{
+	background-color:#fff;
 }
 h1{
 	color:#999;
